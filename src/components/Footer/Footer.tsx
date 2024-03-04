@@ -31,20 +31,20 @@ export function Footer() {
 
             <div className="border-[#3F3E45] border-[1px] my-7" />
 
-            <div className="items-center justify-between md:flex">
-                <div className="my-3">
+            <div className="items-center justify-between flex flex-col md:flex-row md:text-right">
+                <div className="my-3 md:my-0">
                     <Reveal>
                         © {currentYear} DevMinds. All Rights Reserved.
                     </Reveal>
                 </div>
                 <div className="flex gap-5">
                     {footerSocialNetworks.map(({ id, icon, link }) => (
-                        <Link key={id} href={link} className="text-2xl">
+                        <Link key={id} target="_blank" href={link} className="text-2xl">
                             {icon}
                         </Link>
                     ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }

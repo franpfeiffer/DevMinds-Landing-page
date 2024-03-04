@@ -65,21 +65,16 @@ export const footerSocialNetworks = [
   {
     id: 1,
     icon: <RiInstagramLine />,
-    link: "#"
-  },
-  {
-    id: 2,
-    icon: <RiFacebookCircleFill />,
-    link: "#"
+    link: "https://www.instagram.com/devminds_/"
   },
   {
     id: 3,
     icon: <RiTwitterXFill />,
-    link: "#"
+    link: "https://twitter.com/devminds_"
   },
   {
     id: 4,
     icon: <RiLinkedinBoxFill />,
-    link: "#"
+    link: "https://www.linkedin.com/company/devminds8/"
   },
 ];

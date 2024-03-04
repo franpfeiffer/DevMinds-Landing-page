@@ -12,7 +12,7 @@ export function CtaDark() {
                             <h3 className="text-3xl font-bold">What are you waiting for</h3>
                         </Reveal>
                         <Reveal>
-                            <p>Everything you need to do to boost your online presence and make your numbers go through the roof.</p>
+                            <p>Everything you need to do to boost your online presence and make your numbers go through the roof is click this button.</p>
                         </Reveal>
                     </div>
 
