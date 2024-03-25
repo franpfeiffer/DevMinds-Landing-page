@@ -16,7 +16,7 @@ export function CtaDark() {
                         </Reveal>
                     </div>
 
-                    <Link href="#" className="px-4 py-3 mx-auto rounded-md bg-blueRadial">
+                    <Link href="/service" className="px-4 py-3 mx-auto rounded-md bg-blueRadial">
                         <Reveal>
                             Start Now
                         </Reveal>

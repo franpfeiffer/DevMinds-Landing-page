@@ -17,7 +17,7 @@ export const dataTeam = [
     id: 3,
     name: "Facundo Delgado",
     work: "Founder",
-    testimonial: "Community Manager",
+    testimonial: "Sales and Business Relations Manager",
     image: "/assets/profile3.png",
   },
 ];

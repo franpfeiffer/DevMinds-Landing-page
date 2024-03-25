@@ -32,7 +32,7 @@ body {
 
 .slider-horizontal {
   display: flex;
-  animation: swipe 5000ms linear infinite backwards;
+  animation: swipe 4000ms linear infinite backwards;
 }
 
 @keyframes swipe {

@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <FirstBlock />
       <BestBusiness />
-      <ChooseYourCards />
+      {/* <ChooseYourCards /> */}
       <Team />
       <Tech />
       <Footer />

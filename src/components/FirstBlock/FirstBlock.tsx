@@ -8,7 +8,7 @@ import { Reveal } from "../Reveal"
 
 export function FirstBlock() {
     return (
-        <div className="relative p-4 md:py-20">
+        <div className="relative p-4 mt-20 md:py-20">
             <BackgroundRadialRight />
             <div className="grid max-w-6xl mx-auto md:grid-cols-2">
                 <div>
@@ -26,7 +26,7 @@ export function FirstBlock() {
                     </Reveal>
                     <Reveal>
                         <div className="my-8">
-                            <Link href="#clients" className="px-4 py-3 rounded-md bg-blueRadial">About Us</Link>
+                            <Link href="/service" className="px-4 py-3 rounded-md bg-blueRadial">Connect with us</Link>
                         </div>
                     </Reveal>
                 </div>

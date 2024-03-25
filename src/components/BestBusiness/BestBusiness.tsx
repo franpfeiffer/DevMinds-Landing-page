@@ -20,14 +20,14 @@ export function BestBusiness() {
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10">Problems are our expertise.
+                        <p className="max-w-md mt-10">Designing and developing are our expertise.
                             At DevMinds, we have a team whose main proficiency is problem-solving,
-                            which makes us come up with the absolute best solutions for any problem.
+                            which makes us come up with the absolute best solutions for any difficulty.
                             We turn challenges into triumphs. Your success, simplified with us.</p>
                     </Reveal>
                     <Reveal>
                         <div className="my-8">
-                            <Link href="#clients" className="px-4 py-3 rounded-md bg-blueRadial">Sign in to start now</Link>
+                            <Link href="/service" className="px-4 py-3 rounded-md bg-blueRadial">Services</Link>
                         </div>
                     </Reveal>
                 </div>

@@ -5,14 +5,13 @@ import Link from "next/link"
 import { RiMenu3Line } from 'react-icons/ri'
 import { dataHeader } from "./Header.data"
 import { useState } from "react"
-import { MotionTransition } from "../MotionTransition/"
 
 export function Header() {
     const [openMobileMenu, setOpenMobileMenu] = useState(false)
 
     return (
-        <MotionTransition>
-            <nav className="flex flex-wrap items-center justify-between max-w-5xl p-4 mx-auto md:py-8">
+        <div>
+            <nav className="fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-50 shadow-md flex items-center justify-between max-w-5xl p-2 mx-auto mt-2 rounded-xl md:py-8">
                 <Link href="/" className="flex items-center">
                     <Image src="/assets/devmind-b.png" width="100" height="40" alt="Logo" />
                 </Link>
@@ -27,6 +26,6 @@ export function Header() {
                     </div>
                 </div>
             </nav>
-        </MotionTransition>
+        </div>
     )
 }
