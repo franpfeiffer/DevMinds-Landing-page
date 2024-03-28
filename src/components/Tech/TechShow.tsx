@@ -1,6 +1,5 @@
 "use client";
 
-// Importa el tipo Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper as SwiperClass } from 'swiper';
 import React, { useState } from 'react';
@@ -33,7 +32,7 @@ export function Tech() {
                         disableOnInteraction: false
                     }}
                     grabCursor={true}
-                    loop={true}  // Asegúrate de que loop sea true
+                    loop={true}
                     speed={2000}
                     onSlideChange={handleSlideChange}
                     initialSlide={currentSlide}
