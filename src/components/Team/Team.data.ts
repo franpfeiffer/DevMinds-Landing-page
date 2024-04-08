@@ -18,6 +18,6 @@ export const dataTeam = [
     name: "Facundo Delgado",
     work: "Founder",
     testimonial: "Sales and Business Relations Manager",
-    image: "/assets/profile3.png",
+    image: "/assets/foto-webo.png",
   },
 ];
