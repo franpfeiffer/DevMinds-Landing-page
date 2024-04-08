@@ -4,7 +4,7 @@ export const dataTeam = [
     name: "Marco Savarino",
     work: "Founder",
     testimonial: "Back-End Developer & DevOps Engineer",
-    image: "/assets/profile1.png",
+    image: "/assets/sava.png",
   },
   {
     id: 2,
