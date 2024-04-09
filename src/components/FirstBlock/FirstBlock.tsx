@@ -10,13 +10,13 @@ export function FirstBlock() {
     return (
         <div className="relative p-4 mt-20 md:py-20">
             <BackgroundRadialRight />
-            <div className="grid max-w-6xl mx-auto md:grid-cols-2">
+            <div className="grid max-w-6xl mx-auto mt-5 md:grid-cols-2">
                 <div>
                     <Reveal>
                         <h1 className="text-6xl font-semibold pb-2">
                             We are
                             <span className="block degradedBlue bg-blueLight">
-                                DevMinds
+                                DevMinds,
                             </span>
                             Always Evolving
                         </h1>
@@ -31,7 +31,7 @@ export function FirstBlock() {
                     </Reveal>
                 </div>
                 <MotionTransition className="flex items-center justify-center">
-                    <Image src="/assets/4.png" alt="Card" width={450} height={450} className="h-auto w-72 md:w-full" />
+                    <Image src="/assets/4.png" alt="Card" width={700} height={700} className="h-auto w-72 md:w-full" />
                 </MotionTransition>
             </div>
         </div>
