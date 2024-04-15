@@ -68,12 +68,12 @@ export const footerSocialNetworks = [
     link: "https://www.instagram.com/devminds_/"
   },
   {
-    id: 3,
+    id: 2,
     icon: <RiTwitterXFill />,
     link: "https://twitter.com/devminds_"
   },
   {
-    id: 4,
+    id: 3,
     icon: <RiLinkedinBoxFill />,
     link: "https://www.linkedin.com/company/devminds8/"
   },
