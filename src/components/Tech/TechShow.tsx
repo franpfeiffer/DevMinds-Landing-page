@@ -17,9 +17,10 @@ export function Tech() {
     };
 
     return (
-        <div className="relative py-20 md:py-64" id="services">
+        <div className="relative my-20 md:my-60" id="services">
             <BackgroundRadialRight />
             <div className="relative w-full overflow-hidden">
+                <CtaDark />
                 <Swiper
                     breakpoints={{
                         320: {
@@ -39,13 +40,11 @@ export function Tech() {
                 >
                     {dataTech.map(({ id, image }) => (
                         <SwiperSlide key={id} className="flex items-center slider-horizontal">
-                            <Image src={`/assets/${image}`} alt="Payment" width="70" height="70" className="h-[60px] w-[120px] object-contain" />
+                            <Image src={`/assets/${image}`} alt="tech" width="70" height="70" className="h-[60px] w-[120px] object-contain" />
                         </SwiperSlide>
                     ))}
                 </Swiper>
             </div>
-
-            <CtaDark />
         </div>
     );
 }

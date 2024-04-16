@@ -1,4 +1,4 @@
-import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
+import { RiFacebookCircleFill, RiGithubFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
 
 export const footerData = [
   {
@@ -34,12 +34,12 @@ export const footerData = [
       {
         id: 2,
         name: "Marco's Portfolio",
-        link: "#",
+        link: "https://marcosavarino.netlify.app",
       },
       {
         id: 3,
         name: "Facundo's LinkedIn",
-        link: "#",
+        link: "https://www.linkedin.com/in/facundo-delgado-8826bb257/",
       },
     ],
   },
@@ -76,5 +76,10 @@ export const footerSocialNetworks = [
     id: 3,
     icon: <RiLinkedinBoxFill />,
     link: "https://www.linkedin.com/company/devminds8/"
+  },
+  {
+    id: 4,
+    icon: <RiGithubFill />,
+    link: "https://github.com/franpfeiffer/DevMinds-Landing-page/"
   },
 ];

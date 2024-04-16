@@ -20,10 +20,8 @@ export function BestBusiness() {
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10">Designing and developing are our expertise.
-                            At DevMinds, we have a team whose main proficiency is problem-solving,
-                            which makes us come up with the absolute best solutions for any difficulty.
-                            We turn challenges into triumphs. Your success, simplified with us.</p>
+                        <p className="max-w-md mt-10">
+                            At DevMinds, we excel in design and development, specializing in problem-solving to deliver optimal solutions. Our team transforms challenges into triumphs. Your success, simplified with us.</p>
                     </Reveal>
                     <Reveal>
                         <div className="my-8">
