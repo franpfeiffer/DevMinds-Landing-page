@@ -34,7 +34,7 @@ export function Tech() {
                     }}
                     grabCursor={true}
                     loop={true}
-                    speed={2000}
+                    speed={5000}
                     onSlideChange={handleSlideChange}
                     initialSlide={currentSlide}
                 >
