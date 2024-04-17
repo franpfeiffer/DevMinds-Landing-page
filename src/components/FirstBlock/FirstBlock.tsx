@@ -22,7 +22,7 @@ export function FirstBlock() {
                         </h1>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10">We don't just write code; we design experiences that push the limits of innovation. Our team of visionary minds is dedicated to crafting software solutions that go beyond expectations. Seamlessly blending creativity with technology, we ensure your business stands out in the digital realm.</p>
+                        <p className="max-w-md mt-10">We do not just write code; we design experiences that push the limits of innovation. Our team of visionary minds is dedicated to crafting software solutions that go beyond expectations. Seamlessly blending creativity with technology, we ensure your business stands out in the digital realm.</p>
                     </Reveal>
                     <Reveal>
                         <div className="my-8">
