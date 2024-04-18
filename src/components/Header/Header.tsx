@@ -15,9 +15,8 @@ export function Header() {
                 <Link href="/" className="flex items-center">
                     <Image src="/assets/devmind-b.png" width="100" height="100" alt="Logo" className="w-20 h-auto" />
                 </Link>
-                <RiMenu3Line className="block text-3xl md:hidden cursor-pointer" onClick={() => setOpenMobileMenu(!openMobileMenu)} />
-                <div className={`${openMobileMenu ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
-                    <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                <div className='hidden md:block md:w-auto'>
+                    <div className="flex flex-col p-4 mt-2 md:p-0 md:flex-row md:space-x-8 md:mt-0">
                         {dataHeader.map(({ id, name, idLink }) => (
                             <div key={id} className="px-4 transition-all duration-500 ease-in-out">
                                 <Link href={idLink} className="text-lg hover:text-secondary">{name}</Link>
@@ -29,3 +28,5 @@ export function Header() {
         </div>
     )
 }
+
+//676

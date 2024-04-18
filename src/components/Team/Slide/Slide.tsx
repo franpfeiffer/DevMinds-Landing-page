@@ -14,7 +14,7 @@ export function Slide() {
                     slidesPerView: 1,
                     spaceBetween: 15
                 },
-                678: {
+                973: {
                     slidesPerView: 3,
                     spaceBetween: 15
                 }

@@ -24,17 +24,17 @@ export function Tech() {
                 <Swiper
                     breakpoints={{
                         320: {
-                            slidesPerView: 8,
-                            spaceBetween: 15
+                            slidesPerView: 5,
+                            spaceBetween: 50
                         }
                     }}
                     autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false
+                        delay: 1000,
+                        disableOnInteraction: true
                     }}
-                    grabCursor={true}
+                    grabCursor={false}
                     loop={true}
-                    speed={5000}
+                    speed={8000}
                     onSlideChange={handleSlideChange}
                     initialSlide={currentSlide}
                 >

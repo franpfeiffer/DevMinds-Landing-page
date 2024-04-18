@@ -1,12 +1,13 @@
 export const dataTech = [
   {
     id: 1,
-    image: "html.svg",
+    image: "Google-Cloud.png",
   },
   {
     id: 2,
-    image: "CSS3.svg",
+    image: "astrojs.svg",
   },
+
   {
     id: 3,
     image: "JS.svg",
@@ -17,7 +18,7 @@ export const dataTech = [
   },
   {
     id: 5,
-    image: "nextjs.svg",
+    image: "react.svg",
   },
   {
     id: 6,
@@ -27,13 +28,18 @@ export const dataTech = [
     id: 7,
     image: "node.png",
   },
+  // {
+  //   id: 9,
+  //   image: "git-logo.png",
+  // },
+
   {
     id: 8,
-    image: "java.png",
+    image: "nextjs.svg",
   },
   {
     id: 9,
-    image: "git-logo.png",
+    image: "mysql.svg",
   },
   {
     id: 10,
@@ -41,18 +47,15 @@ export const dataTech = [
   },
   {
     id: 11,
-    image: "Google-Cloud.png",
+    image: "java.png",
   },
   {
     id: 12,
-    image: "react.svg",
+    image: "html.svg",
   },
   {
     id: 13,
-    image: "mysql.svg",
+    image: "CSS3.svg",
   },
-  {
-    id: 13,
-    image: "astrojs.svg",
-  },
+
 ];
