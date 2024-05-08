@@ -10,7 +10,7 @@ export const dataTeam = [
     id: 2,
     name: "Marco Savarino",
     work: "Founder",
-    testimonial: "Back-End Developer & DevOps Engineer",
+    testimonial: "Back-End Developer & Sre Engineer (DevOps)",
     image: "/assets/sava.png",
   },
   {
