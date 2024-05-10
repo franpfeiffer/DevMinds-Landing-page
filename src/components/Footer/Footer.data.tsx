@@ -34,7 +34,7 @@ export const footerData = [
       {
         id: 2,
         name: "Marco's Portfolio",
-        link: "https://marcosavarino.netlify.app",
+        link: "https://marcosavarino.world/",
       },
       {
         id: 3,
