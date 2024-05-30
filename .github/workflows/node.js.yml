@@ -28,5 +28,12 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build --if-present
-    - run: pm2 reload 0
+    - name: Reload or Start PM2
+      run: |
+        if pm2 describe 0 > /dev/null; then
+          pm2 reload 0
+        else
+          pm2 start <your-app-entry-file> --name 0
+        fi
+
     
