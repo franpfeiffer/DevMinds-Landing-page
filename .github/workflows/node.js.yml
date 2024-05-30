@@ -33,7 +33,8 @@ jobs:
         if pm2 describe 0 > /dev/null; then
           pm2 reload 0
         else
-          pm2 start <your-app-entry-file> --name 0
+          pm2 start npm --name "app" -- start
         fi
+
 
     
